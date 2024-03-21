@@ -73,6 +73,19 @@ std::vector<int> spiralOrder(std::vector<std::vector<int>>& matrix) {
         return result;
     }
 
+// std::vector<int> solution(std::vector<std::vector<int>>& matrix) {
+//     int a=0, b=matrix.size(), c=0, d=matrix[0].size();
+//     int count=b*d;
+//     std::vector<int> result;
+//     while(count)
+//     {
+//         for(int i=c;i<d-1;i++)
+//         {
+//             result.emplace_back(matrix[a][i]);
+//             count--;
+//         }
+//     }
+// }
 
 int main()
 {
